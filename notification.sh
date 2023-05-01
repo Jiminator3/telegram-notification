@@ -1,10 +1,5 @@
 #!bin/bash
-sleep 5
-echo "Hello World!";
-sleep 4
-#tar -cvf backup_test.tar.gz ~/Документы/Timur/test0.txt
-#mv ~/Документы/Timur/backup_test.tar.gz ~/Документы/Timur/test_folder1
-#tar -xvf ~/Документы/Timur/test_folder1/backup_test.tar.gz
+sleep 5 #Ожидание симулирующее выполнение продолжительной задачи.
 
 while read line
 do
