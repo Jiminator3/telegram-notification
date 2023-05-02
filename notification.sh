@@ -1,8 +1,8 @@
-#!bin/bash
+#!/bin/bash
 sleep 5 #Ожидание симулирующее выполнение продолжительной задачи.
 
 #Чтение текста из файла. TODO(Читать данные из log файла.)
-while read line
+while read -r line
 do
 	text=$text+$line
 done < "${1:-/dev/stdin}"
